@@ -2,22 +2,20 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
+require('dotenv').config();
+
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-
-mongoose.connect('');
-const db = mongoose.connection;
-db.on('error', (error) => console.error(error));
-db.once('open', () => console.log('Connected to Database'));
-
-
-
-
-app.listen(port, () => {
-  console.log(`Server is running on :${port}`);
+mongoose.connect(process.env.MONGODB_URL, {
+}).then(() => {
+  console.log('Connected to Database');
+}).catch((error) => {
+  console.error('Database connection error:', error);
 });
 
-
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
