@@ -1,0 +1,28 @@
+^C:\USERS\USER\DESKTOP\DIRE-DAWA-ECOMMERCE-MOBILE\DDEM\CLIENT_SIDE\ADMIN\BUILD\WINDOWS\X64\CMAKEFILES\326D1B7AFE7C182F21AE8B4E9DE566CC\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\FlutterDev\flutterSDK\flutter PROJECT_DIR=C:\Users\USER\Desktop\dire-dawa-ecommerce-mobile\ddem\client_side\admin FLUTTER_ROOT=C:\FlutterDev\flutterSDK\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\USER\Desktop\dire-dawa-ecommerce-mobile\ddem\client_side\admin\windows\flutter\ephemeral PROJECT_DIR=C:\Users\USER\Desktop\dire-dawa-ecommerce-mobile\ddem\client_side\admin FLUTTER_TARGET=C:\Users\USER\Desktop\dire-dawa-ecommerce-mobile\ddem\client_side\admin\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNjM0NGI3NWRjZjg2MWQ4YmYxZjEzMjI3ODBiODgxMWY5ODJlMzFhLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\USER\Desktop\dire-dawa-ecommerce-mobile\ddem\client_side\admin\.dart_tool\package_config.json C:/FlutterDev/flutterSDK/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\DIRE-DAWA-ECOMMERCE-MOBILE\DDEM\CLIENT_SIDE\ADMIN\BUILD\WINDOWS\X64\CMAKEFILES\A66AD3BABB60B9A6A46E7AA439878BE0\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\DIRE-DAWA-ECOMMERCE-MOBILE\DDEM\CLIENT_SIDE\ADMIN\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/dire-dawa-ecommerce-mobile/ddem/client_side/admin/windows -BC:/Users/USER/Desktop/dire-dawa-ecommerce-mobile/ddem/client_side/admin/build/windows/x64 --check-stamp-file C:/Users/USER/Desktop/dire-dawa-ecommerce-mobile/ddem/client_side/admin/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

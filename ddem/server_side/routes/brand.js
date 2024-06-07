@@ -18,6 +18,7 @@ router.get('/', asyncHandler(async (req, res) => {
 router.get('/:id', asyncHandler(async (req, res) => {
     try {
         const brandID = req.params.id;
+        const brandName = Brand.findById(brandID).populate('categoryId');
         const brand = await Brand.findById(brandID).populate('subcategoryId');
         if (!brand) {
             return res.status(404).json({ success: false, message: "Brand not found." });

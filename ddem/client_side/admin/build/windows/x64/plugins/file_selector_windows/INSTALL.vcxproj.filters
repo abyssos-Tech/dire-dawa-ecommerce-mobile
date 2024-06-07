@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\dire-dawa-ecommerce-mobile\ddem\client_side\admin\build\windows\x64\CMakeFiles\759f7593ef32dfdab46c4aca36be6d73\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{098A9E36-A726-32D5-B77C-B400E94A4FA8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
