@@ -105,9 +105,9 @@
     },
     {
       "name": "fl_chart",
-      "rootUri": "file:///C:/Users/USER/AppData/Local/Pub/Cache/hosted/pub.dev/fl_chart-0.62.0",
+      "rootUri": "file:///C:/Users/USER/AppData/Local/Pub/Cache/hosted/pub.dev/fl_chart-0.68.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.2"
     },
     {
       "name": "flutter",
@@ -171,7 +171,7 @@
     },
     {
       "name": "image_picker",
-      "rootUri": "file:///C:/Users/USER/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker-1.1.0",
+      "rootUri": "file:///C:/Users/USER/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -452,7 +452,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-06-06T18:13:40.537107Z",
+  "generated": "2024-06-07T04:03:48.506951Z",
   "generator": "pub",
   "generatorVersion": "3.4.0",
   "flutterRoot": "file:///C:/FlutterDev/flutterSDK/flutter",
